@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_screen_param_map">
+    <sys_sg_screen_param_map action="INSERT_OR_UPDATE">
+        <item_parameter display_value="AssetTag">14eaad484f566300137c4b8d0210c7c7</item_parameter>
+        <screen display_value="Asset Lookup">37cbe9884f566300137c4b8d0210c7a0</screen>
+        <sys_class_name>sys_sg_screen_param_map</sys_class_name>
+        <sys_created_by>jesse.adams</sys_created_by>
+        <sys_created_on>2018-12-05 22:48:27</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>bbcbe9884f566300137c4b8d0210c7a3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>14eaad484f566300137c4b8d0210c7c7</sys_name>
+        <sys_package display_value="mobileWorkshop" source="x_snc_mobilews">480ba8c44f926300137c4b8d0210c7a4</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="mobileWorkshop">480ba8c44f926300137c4b8d0210c7a4</sys_scope>
+        <sys_update_name>sys_sg_screen_param_map_bbcbe9884f566300137c4b8d0210c7a3</sys_update_name>
+        <sys_updated_by>jesse.adams</sys_updated_by>
+        <sys_updated_on>2018-12-05 22:48:27</sys_updated_on>
+        <ui_parameter display_value="Scan Asset Tag">b7cbe9884f566300137c4b8d0210c7a1</ui_parameter>
+    </sys_sg_screen_param_map>
+</record_update>

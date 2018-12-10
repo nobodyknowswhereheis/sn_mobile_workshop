@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_action_param_map">
+    <sys_sg_action_param_map action="INSERT_OR_UPDATE">
+        <button display_value="Update State - INC">caaf619c4f12a300137c4b8d0210c7b0</button>
+        <item_parameter display_value="State">610f695c4f12a300137c4b8d0210c707</item_parameter>
+        <sys_class_name>sys_sg_action_param_map</sys_class_name>
+        <sys_created_by>jesse.adams</sys_created_by>
+        <sys_created_on>2018-12-06 17:45:39</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>4810f59c4f12a300137c4b8d0210c79c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>610f695c4f12a300137c4b8d0210c707</sys_name>
+        <sys_package display_value="mobileWorkshop" source="x_snc_mobilews">480ba8c44f926300137c4b8d0210c7a4</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="mobileWorkshop">480ba8c44f926300137c4b8d0210c7a4</sys_scope>
+        <sys_update_name>sys_sg_action_param_map_4810f59c4f12a300137c4b8d0210c79c</sys_update_name>
+        <sys_updated_by>jesse.adams</sys_updated_by>
+        <sys_updated_on>2018-12-06 17:45:39</sys_updated_on>
+        <ui_parameter display_value="State">c3df259c4f12a300137c4b8d0210c763</ui_parameter>
+    </sys_sg_action_param_map>
+</record_update>

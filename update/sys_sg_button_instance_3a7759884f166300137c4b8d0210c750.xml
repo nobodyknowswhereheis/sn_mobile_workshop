@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_button_instance">
+    <sys_sg_button_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <button display_value="GPS Location - TASK">60079d084f166300137c4b8d0210c728</button>
+        <description/>
+        <field_name>location</field_name>
+        <label>Location_field</label>
+        <location>field</location>
+        <name>Location_field</name>
+        <order>1</order>
+        <parent>476d24884f926300137c4b8d0210c7fd</parent>
+        <parent_table>sys_sg_details_screen</parent_table>
+        <sys_class_name>sys_sg_button_instance</sys_class_name>
+        <sys_created_by>jesse.adams</sys_created_by>
+        <sys_created_on>2018-12-05 21:19:38</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>3a7759884f166300137c4b8d0210c750</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Location_field</sys_name>
+        <sys_package display_value="mobileWorkshop" source="x_snc_mobilews">480ba8c44f926300137c4b8d0210c7a4</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="mobileWorkshop">480ba8c44f926300137c4b8d0210c7a4</sys_scope>
+        <sys_update_name>sys_sg_button_instance_3a7759884f166300137c4b8d0210c750</sys_update_name>
+        <sys_updated_by>jesse.adams</sys_updated_by>
+        <sys_updated_on>2018-12-05 21:19:38</sys_updated_on>
+        <table>incident</table>
+    </sys_sg_button_instance>
+</record_update>

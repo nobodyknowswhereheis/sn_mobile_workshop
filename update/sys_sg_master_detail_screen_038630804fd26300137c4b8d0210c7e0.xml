@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_master_detail_screen">
+    <sys_sg_master_detail_screen action="INSERT_OR_UPDATE">
+        <application_roles/>
+        <available_offline>false</available_offline>
+        <data_item display_value="Task SLAs">9006b8404fd26300137c4b8d0210c7c2</data_item>
+        <description/>
+        <fetch_type>not_required</fetch_type>
+        <hidden>true</hidden>
+        <icon/>
+        <name>Task SLAs</name>
+        <order>20</order>
+        <parent>069374cc4f926300137c4b8d0210c7eb</parent>
+        <parent_table>sys_sg_folder</parent_table>
+        <roles_override/>
+        <sys_class_name>sys_sg_master_detail_screen</sys_class_name>
+        <sys_created_by>jesse.adams</sys_created_by>
+        <sys_created_on/>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>038630804fd26300137c4b8d0210c7e0</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Task SLAs</sys_name>
+        <sys_package display_value="mobileWorkshop" source="x_snc_mobilews">480ba8c44f926300137c4b8d0210c7a4</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="mobileWorkshop">480ba8c44f926300137c4b8d0210c7a4</sys_scope>
+        <sys_update_name>sys_sg_master_detail_screen_038630804fd26300137c4b8d0210c7e0</sys_update_name>
+        <sys_updated_by>jesse.adams</sys_updated_by>
+        <sys_updated_on>2018-12-05 19:20:56</sys_updated_on>
+    </sys_sg_master_detail_screen>
+</record_update>

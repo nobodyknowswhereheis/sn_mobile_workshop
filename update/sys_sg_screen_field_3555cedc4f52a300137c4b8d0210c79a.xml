@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_screen_field">
+    <sys_sg_screen_field action="INSERT_OR_UPDATE">
+        <data_item_field_name>state</data_item_field_name>
+        <hidden>false</hidden>
+        <order>10</order>
+        <screen display_value="Details">476d24884f926300137c4b8d0210c7fd</screen>
+        <screen_data_item_table>incident</screen_data_item_table>
+        <sys_class_name>sys_sg_screen_field</sys_class_name>
+        <sys_created_by>jesse.adams</sys_created_by>
+        <sys_created_on>2018-12-06 19:18:28</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>3555cedc4f52a300137c4b8d0210c79a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>state</sys_name>
+        <sys_package display_value="mobileWorkshop" source="x_snc_mobilews">480ba8c44f926300137c4b8d0210c7a4</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="mobileWorkshop">480ba8c44f926300137c4b8d0210c7a4</sys_scope>
+        <sys_update_name>sys_sg_screen_field_3555cedc4f52a300137c4b8d0210c79a</sys_update_name>
+        <sys_updated_by>jesse.adams</sys_updated_by>
+        <sys_updated_on>2018-12-06 19:18:28</sys_updated_on>
+        <type>auto</type>
+    </sys_sg_screen_field>
+</record_update>

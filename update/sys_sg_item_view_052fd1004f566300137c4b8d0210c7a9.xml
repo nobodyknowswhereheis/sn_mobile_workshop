@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_view">
+    <sys_sg_item_view action="INSERT_OR_UPDATE">
+        <data_item display_value="sys_user - employees">5fdeddcc4f166300137c4b8d0210c76f</data_item>
+        <dependency_fields>avatar,name,title,email</dependency_fields>
+        <item_view_json>{"Type":"ViewGroup","Margin":{"Top":14,"Bottom":16},"Orientation":"Horizontal","Alignment":"Top","Distribution":"Auto","Children":[{"Type":"Image","CornerRadius":24,"Height":48,"Width":48,"Margin":{"Right":16},"studio_template_field_id":"E1","Scaling":"Fill","CellId":"avatar"},{"Type":"ViewGroup","Margin":{},"Orientation":"Vertical","Alignment":"Left","Distribution":"Auto","Children":[{"Type":"Text","studio_template_field_id":"E2","TextColor":"#293e40","TextAlignment":"Left","MaxLines":1,"Font":{"Weight":"medium","Size":18},"CellId":"name"},{"Type":"Text","Margin":{"Top":4},"studio_template_field_id":"E3","TextColor":"#293e40","TextAlignment":"Left","MaxLines":1,"Font":{"Weight":"regular","Size":14},"CellId":"title"},{"Type":"Text","Margin":{"Top":5},"studio_template_field_id":"E4","TextColor":"#7d8a8c","TextAlignment":"Left","MaxLines":1,"Font":{"Weight":"regular","Size":13},"CellId":"email"}]}],"studio_card_id":"6a08b23023052300a8ed7f4fc7bf6558"}</item_view_json>
+        <name>Employees item view</name>
+        <short_description/>
+        <sys_class_name>sys_sg_item_view</sys_class_name>
+        <sys_created_by>jesse.adams</sys_created_by>
+        <sys_created_on>2018-12-05 21:53:06</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>052fd1004f566300137c4b8d0210c7a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Employees item view</sys_name>
+        <sys_package display_value="mobileWorkshop" source="x_snc_mobilews">480ba8c44f926300137c4b8d0210c7a4</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="mobileWorkshop">480ba8c44f926300137c4b8d0210c7a4</sys_scope>
+        <sys_update_name>sys_sg_item_view_052fd1004f566300137c4b8d0210c7a9</sys_update_name>
+        <sys_updated_by>jesse.adams</sys_updated_by>
+        <sys_updated_on>2018-12-05 21:53:06</sys_updated_on>
+        <ui_styles/>
+    </sys_sg_item_view>
+</record_update>

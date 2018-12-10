@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_button_instance">
+    <sys_sg_button_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <button display_value="Send an email">7995e5044f566300137c4b8d0210c7a7</button>
+        <description/>
+        <field_name>email</field_name>
+        <label>Email_field</label>
+        <location>field</location>
+        <name>Email_field</name>
+        <order>1</order>
+        <parent>0e41ad404f566300137c4b8d0210c794</parent>
+        <parent_table>sys_sg_details_screen</parent_table>
+        <sys_class_name>sys_sg_button_instance</sys_class_name>
+        <sys_created_by>jesse.adams</sys_created_by>
+        <sys_created_on>2018-12-05 22:22:17</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>e8d529444f566300137c4b8d0210c7a1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Email_field</sys_name>
+        <sys_package display_value="mobileWorkshop" source="x_snc_mobilews">480ba8c44f926300137c4b8d0210c7a4</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="mobileWorkshop">480ba8c44f926300137c4b8d0210c7a4</sys_scope>
+        <sys_update_name>sys_sg_button_instance_e8d529444f566300137c4b8d0210c7a1</sys_update_name>
+        <sys_updated_by>jesse.adams</sys_updated_by>
+        <sys_updated_on>2018-12-05 22:22:17</sys_updated_on>
+        <table>sys_user</table>
+    </sys_sg_button_instance>
+</record_update>

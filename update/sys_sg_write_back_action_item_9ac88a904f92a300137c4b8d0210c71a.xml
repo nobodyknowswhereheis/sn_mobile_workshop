@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_write_back_action_item">
+    <sys_sg_write_back_action_item action="INSERT_OR_UPDATE">
+        <description/>
+        <execution_script><![CDATA[(function WriteBackAction(input) {
+	var gr = new GlideRecord("wm_task");
+	if (!gr.get(input.sys_id)) {
+		gs.error("wot_reject write-back action - failed to find work order task");
+		gs.addErrorMessage(gs.getMessage("Reject task failed."));
+		return;
+	}
+	
+	if (gr.state == 16 && (new global.StateFlow().validFlow(gr, '2a02ee60d7630100fceaa6859e610378', 'manual'))){
+		//Provide a reason for rejection in Work notes
+		gr.work_notes = input.wb_wot_reject_work_note;
+		if (input.offline === true)
+			new global.FSMMobileUtil().setOfflineDeviceTs(gr, input.createdOn);
+		new global.StateFlow().processFlow(gr, '2a02ee60d7630100fceaa6859e610378', 'manual');
+	} else {
+		gs.addErrorMessage(gs.getMessage("Reject task failed.\nReview task status online."));
+	}
+})(input);]]></execution_script>
+        <name>Reject Task</name>
+        <query_condition/>
+        <sys_class_name>sys_sg_write_back_action_item</sys_class_name>
+        <sys_created_by>jesse.adams</sys_created_by>
+        <sys_created_on>2018-12-06 19:34:06</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>9ac88a904f92a300137c4b8d0210c71a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Reject Task</sys_name>
+        <sys_package display_value="mobileWorkshop" source="x_snc_mobilews">480ba8c44f926300137c4b8d0210c7a4</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="mobileWorkshop">480ba8c44f926300137c4b8d0210c7a4</sys_scope>
+        <sys_update_name>sys_sg_write_back_action_item_9ac88a904f92a300137c4b8d0210c71a</sys_update_name>
+        <sys_updated_by>jesse.adams</sys_updated_by>
+        <sys_updated_on>2018-12-06 19:42:13</sys_updated_on>
+        <table/>
+        <template/>
+        <type>script</type>
+        <use_current_record_as_condition>true</use_current_record_as_condition>
+    </sys_sg_write_back_action_item>
+</record_update>
